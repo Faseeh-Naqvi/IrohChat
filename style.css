@@ -1,0 +1,28 @@
+/* style.css */
+body{
+    background-color: lightcoral;
+}
+/* style.css */
+.chat-container {
+    height: 300px; /* Set the desired fixed height for the chat container */
+    overflow-y: auto; /* Enable vertical scrolling when content overflows */
+    border-radius: 15px;
+}
+
+.chat-box {
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    max-width: 300px;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.received {
+    background-color: #cfe5d1;
+}
